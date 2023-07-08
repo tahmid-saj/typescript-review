@@ -35,3 +35,24 @@ var fightRobotArmy2 = function (robots) {
 };
 var dog = {};
 dog.count;
+var fightRobotArmy3 = function (robots) {
+    console.log("fight3");
+};
+var fightRobotArmy4 = function (robots) {
+    console.log('fight4');
+    return 5;
+};
+// class
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = 'lala';
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "hello ".concat(this.sing);
+    };
+    return Animal;
+}());
+var lion = new Animal("rawr");
+lion.greet();
+// lion.sing
