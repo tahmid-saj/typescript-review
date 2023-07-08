@@ -21,3 +21,16 @@ basket = ['basket', 5]
 enum Size { Small = 1, Medium = 2, Large = 3 }
 let sizeName: number = Size.Small;
 
+let whatever: any = 'foo'
+whatever = basket
+
+let sing = (): void => {
+  console.log('no return')
+}
+
+// never - either never returns or a variable returned is never true - may throw error
+let error = (): never => {
+  throw Error("oops")
+}
+
+

@@ -18,3 +18,12 @@ var Size;
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
 var sizeName = Size.Small;
+var whatever = 'foo';
+whatever = basket;
+var sing = function () {
+    console.log('no return');
+};
+// never - either never returns or a variable returned is never true - may throw error
+var error = function () {
+    throw Error("oops");
+};
