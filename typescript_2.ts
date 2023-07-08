@@ -88,3 +88,6 @@ lion.greet()
 
 let confused: string | number | boolean = "hello"
 
+// infered type
+let x = 4
+x = 'hello'

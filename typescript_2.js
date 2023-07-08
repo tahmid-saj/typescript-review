@@ -57,3 +57,6 @@ var lion = new Animal("rawr");
 lion.greet();
 // lion.sing
 var confused = "hello";
+// infered type
+var x = 4;
+x = 'hello';
