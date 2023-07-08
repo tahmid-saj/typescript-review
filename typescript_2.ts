@@ -86,3 +86,5 @@ let lion = new Animal("rawr");
 lion.greet()
 // lion.sing
 
+let confused: string | number | boolean = "hello"
+
