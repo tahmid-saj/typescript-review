@@ -33,4 +33,18 @@ let error = (): never => {
   throw Error("oops")
 }
 
+// interface
+// types don't create a new name, but interfaces create a new name
+type RobotArmy = {
+  count: number,
+  type: string,
+  magic: string
+}
 
+let fightRobotArmy = (robots: RobotArmy) => {
+  console.log("fight")
+}
+
+let fightRobotArmy2 = (robots: {count: number, type: string, magic: string}) => {
+  console.log('fight')
+}
