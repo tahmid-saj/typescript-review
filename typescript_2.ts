@@ -14,3 +14,10 @@ let wizard: object = {
 
 let nulll: undefined = undefined
 let no: null = null
+
+let basket: [string, number]
+basket = ['basket', 5]
+
+enum Size { Small = 1, Medium = 2, Large = 3 }
+let sizeName: number = Size.Small;
+
