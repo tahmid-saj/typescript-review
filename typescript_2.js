@@ -33,3 +33,5 @@ var fightRobotArmy = function (robots) {
 var fightRobotArmy2 = function (robots) {
     console.log('fight');
 };
+var dog = {};
+dog.count;
